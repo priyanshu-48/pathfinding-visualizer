@@ -70,7 +70,6 @@ function getUnvisitedNeighbors(node, grid) {
 
     return neighbors;
 }
-
 export function getShortestPath(endNode) {
   const nodesInPath = [];
   let currentNode = endNode;
@@ -80,3 +79,4 @@ export function getShortestPath(endNode) {
   }
   return nodesInPath;
 }
+
